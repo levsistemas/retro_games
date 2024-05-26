@@ -45,7 +45,7 @@ function moverDerecha() {
         MOVIMIENTO.style.left = posicionActual + 'px'
         const TAMANIO_H2 = document.querySelectorAll('h2')[1].clientWidth
         const ANCHO_SECTION = document.querySelector('Section').offsetWidth
-        if (posicionActual >= (ANCHO_SECTION - TAMANIO_H2-1)) { //250
+        if (posicionActual >= (ANCHO_SECTION - TAMANIO_H2-1)) {
             clearInterval(INTERVALO)
             moverIzquierda()
         }
