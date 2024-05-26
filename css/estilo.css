@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+header > div {
+    display: flex;
+    width: 25%;
+}
+
+header > :nth-child(2) {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > div:nth-child(2) > navbar > a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+header > div:nth-child(2) > navbar > a:hover {
+    color:blue;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+}
+
+main > aside:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: cyan;
+}
+
+main > aside > h1:nth-child(1) {
+    height: 100%;
+    align-content: center;
+}
+
+main > aside > h1:nth-child(2) {
+    height: 100%;
+    align-content: center;
+}
+
+main > aside:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: yellowgreen;
+}
+
+main > aside:nth-child(3) > h1:nth-child(1) {
+    height: 50vh;
+    align-content: center;
+}
+
+main > aside:nth-child(3) > h1:nth-child(2) {
+    height: 50vh;
+    align-content: center;
+}
+
+main > section {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    border: solid 0px brown;
+}
+
+#miubicacion {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.consolas {
+    border: solid 0px black;
+    display: flex;
+    height: 100%;
+}
+
+.consolas > div:nth-child(1) {
+    border: solid 0px red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+}
+
+.consolas > div:nth-child(2) {
+    border: solid 0px blue;
+    width: 40%;
+}
+
+main > section > article {
+    border: solid 0px black;
+}
+
+.videojuegos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: solid 0px blue;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: solid 0px white;
+    
+    width: 100%;
+    height: 100%;
+}
+
+main > section > article > div > div {
+    margin-top: 15px;
+    border: solid 0px yellow;
+}
+
+#animacion {
+    background-color: darkblue;
+    color: white;
+    opacity: 1;
+}
+
+#movimiento {
+    display: inline-block;
+    color: whitesmoke;
+    background-color: rgb(76, 76, 226);
+    position: absolute;
+    left: 0;
+}
+
+#transformacion {
+    background-color: blanchedalmond;
+}
+
+main > section > form > div:nth-child(6) > input:nth-child(1) {
+    border: solid 0px black;
+}
+
+main > section > form > div:nth-child(10) {
+    display: block;
+}
+
+main > section > form > div:nth-child(10) > div {
+    text-align: center;
+}
+
+main > section > form > div:nth-child(21) {
+    padding-bottom: 1em;
+}
+
+main > section > form > div:nth-child(21) > div {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section > form > div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+section > article > div {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer {
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+}
+
+i {
+    font-size: 25px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+footer > div:nth-child(1) {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+footer > div > div:nth-child(1) {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > div:nth-child(2) {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+}
+
+footer > div:nth-child(2) > div {
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-content: center;
+}
+
+p {
+    font-weight: bolder;
+}

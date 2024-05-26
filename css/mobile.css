@@ -1,0 +1,253 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        border: solid 0px red;
+        width: 100%;
+        height: 100%;
+    }
+
+    body > main {
+        height: 100vh;
+        border: solid 0px brown;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(1){
+        height: 50%;
+        background-color: cadetblue;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(2){
+        height: 50%;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(1){
+        height: 50%;
+        background-color: crimson;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(2){
+        height: 50%;
+    }
+
+    span {
+        font-size: 1.5em;
+        color: blue;
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    body {
+        border: solid 0px yellow;
+    }
+
+    body > main {
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(1) {
+        border: solid 0px black;
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(1){
+        height: 50%;
+        background-color: cadetblue;
+    }
+
+    body > main > aside:nth-child(1) > h1:nth-child(2){
+        height: 50%;
+    }
+
+    body > main > section {
+        border: solid 0px red;
+        height: 100%;
+    }
+
+    body > main > section > article {
+        border: solid 0px grey;
+    }
+
+    body > main > section > article > div {
+        border: solid 0px black;
+    }
+
+    body > main > aside:nth-child(3) {
+        height: 100%;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(1){
+        height: 50%;
+        background-color: crimson;
+    }
+
+    body > main > aside:nth-child(3) > h1:nth-child(2){
+        height: 50%;
+    }
+    span {
+        font-size: 1.5em;
+        color: blue;
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        border: solid 0px green;
+        width: 100vw;
+        height: 100%!important;
+    }
+
+    header {
+        width: 100%;
+        height: 140px;
+        background-color: grey;
+    }
+    
+    header > div:nth-child(1)  {
+        border: solid 0px white;
+        height: 25%;
+        font-size: 15px;
+    }
+
+    header > div:nth-child(1) > navbar > a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+    body > header > div:nth-child(1) {
+        border: solid 0px brown;
+        display: inline-flex;
+        height: 100%;
+        position: absolute !important;
+        top: 680px;
+        left: 400px;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    body > header > div:nth-child(2) {
+        display: flex!important;
+        justify-content: space-around;
+        height: 50%;
+        border: solid 0px red;
+    }
+
+    body > header > div:nth-child(2) > navbar > a  {
+        border: solid 0px black;
+        font-size: 13px;
+        display: flex;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        font-size: 15px!important;
+        border: solid 6px salmon!important;
+    }
+    
+    header > :nth-child(2) {
+        width: 100%;
+        height: 100%;
+        display: block;
+        align-items: center;
+    }
+    
+    body > main {
+        height: 70%!important;
+        border: solid 0px blue;
+    }
+
+    body > main > aside:nth-child(1) {
+        display: none;
+    }
+
+    body > main > aside:nth-child(3) {
+        display: none;
+    }
+
+    body > main > section > article > div > div:nth-child(3) {
+        border: solid 0px red;
+    }
+
+    #miubicacion > iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+    section > article > div > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer {
+        height: 200px!important;
+        border: solid 0px brown;
+        position: absolute!important;
+    }
+
+    footer > div:nth-child(1) {
+        width: 100%!important;
+        height: 25%!important;
+        border: solid 0px blue;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer > div > div:nth-child(1) {
+        width: 100%!important;
+        height: 100%!important;
+        display: flex!important;
+        justify-content: space-evenly!important;
+        align-items: center!important;
+        border: solid 0px black;
+    }
+
+    footer > div:nth-child(2) {
+        display: block;
+        width: 100%;
+        height: 25%!important;
+        text-align: center;
+        border: solid 0px violet;
+    }
+    
+    footer > div:nth-child(2) > div {
+        display: block!important;
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+
+    .videojuegos {
+        border: solid 0px blue!important;
+    }
+    
+    .consolas {
+        border: solid 0px black!important;
+        display: flex!important;
+        flex-direction: column!important;
+    }
+
+    .consolas > div:nth-child(2) {
+        border: solid 0px yellow!important;
+        width: 80%!important;
+    }
+    
+    p {
+        font-weight: bolder;
+    }
+
+    span {
+        font-size: 1.5em;
+        color: blue;
+        background-color: black;
+    }
+
+    #mariobross {
+        width: 50px;
+        height: 50px;
+    }
+}
