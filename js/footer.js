@@ -79,7 +79,7 @@ if(document.querySelectorAll('.consolas').length > 15){
 }
 
 if(window.innerWidth < 767) {
-    if(window.location.pathname=='/index.html' || window.location.pathname=='/'){
+    if(window.location.pathname=='/index.html' || window.location.href=='http://127.0.0.1:5500/' || window.location.href=='http://127.0.0.1:5500/index.html'){
         SECTION.style.height='100vh'
     }
     if(window.location.pathname=='/pages/ubicacion.html' || window.location.pathname.indexOf('retro_games/pages/ubicacion') > 0){
