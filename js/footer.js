@@ -82,14 +82,14 @@ if(window.innerWidth < 767) {
     if(window.location.pathname=='/index.html' || window.location.pathname=='/'){
         SECTION.style.height='100vh'
     }
-    if(window.location.pathname=='/pages/ubicacion.html' || window.location.pathname.indexOf('retro_games') > 0){
+    if(window.location.pathname=='/pages/ubicacion.html' || window.location.pathname.indexOf('retro_games/pages/ubicacion') > 0){
         FOOTER.style.position='absolute'
         FOOTER.style.bottom=0
         FOOTER.style.zIndex=0
         SECTION.style.height='80vh'
         document.querySelector('div').style.zIndex=1
     }
-    if(window.location.pathname=='/pages/acerca.html' || window.location.pathname.indexOf('retro_games') > 0){
+    if(window.location.pathname=='/pages/acerca.html' || window.location.pathname.indexOf('retro_games/pages/acerca') > 0){
         FOOTER.style.position='absolute'
         FOOTER.style.bottom=0
         FOOTER.style.zIndex=0
